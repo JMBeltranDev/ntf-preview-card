@@ -126,7 +126,9 @@ body {
   font-weight: var(--fw-caption-bold);
 }
 hr {
-  color: var(--clr-line);
+  height: 1px;
+  border: none;
+  background-color: var(--clr-line);
   margin-bottom: 1rem;
 }
 .card-creator {
